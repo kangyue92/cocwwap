@@ -1,4 +1,6 @@
 <?php
+	var_dump($_SERVER);
+
 	$url = 'http://10.103.242.154:8080/SSHDemo/mytest.action';
 	//$data = array('key1' => 'value1', 'key2' => 'value2');
 	$options = array(
@@ -18,3 +20,4 @@
 	var_dump($json);
 
 ?>
+
